@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "space-grotesk-bold";
+  src: url("/fonts/SpaceGrotesk-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "space-grotesk-medium";
+  src: url("/fonts/SpaceGrotesk-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
