@@ -1,0 +1,25 @@
+@import "./font.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black: #000000;
+  --mid_black: #090909;
+  --strong_gray: #1f1f22;
+  --soft_gray: #727383;
+  --white: #eeeeee;
+  --purple: #8585fe;
+}
+
+body {
+  font-family: "space-grotesk-medium", system-ui;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+#root {
+  position: relative;
+  height: 100dvh;
+}
