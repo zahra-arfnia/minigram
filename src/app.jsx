@@ -1,7 +1,9 @@
+import GoodbyeWorld from "./components/GoodbyeWorld"
+
 export default function App() {
   return (
     <>
-      <h1 className="text-6xl font-bold">Goodbye world.</h1>
+      <GoodbyeWorld />
     </>
   )
 }
