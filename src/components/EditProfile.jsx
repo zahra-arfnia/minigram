@@ -13,3 +13,8 @@ const EditProfile = ({ label, icon: Icon, color = "bg-black-500", textColor = "t
 };
 
 export default EditProfile;
+
+
+
+
+

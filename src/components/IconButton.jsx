@@ -1,9 +1,5 @@
-
 import React, { useState } from 'react';
-import { HeartIcon as HeartOutline } from '@heroicons/react/24/outline';
-import { HeartIcon as HeartSolid } from '@heroicons/react/24/solid';
-import { BookmarkIcon as BookmarkOutline } from '@heroicons/react/24/outline';
-import { BookmarkIcon as BookmarkSolid } from '@heroicons/react/24/solid';
+import { FaHeart, FaRegHeart, FaBookmark, FaRegBookmark} from 'react-icons/fa';
 
 const IconButton = ({ iconType, activeColor, inactiveColor }) => {
   const [active, setActive] = useState(false);
@@ -13,8 +9,8 @@ const IconButton = ({ iconType, activeColor, inactiveColor }) => {
   };
 
   const icons = {
-    like: { active: <HeartSolid className="h-6 w-6 " />, inactive: <HeartOutline className="h-6 w-6 text-purple" /> },
-    save: { active: <BookmarkSolid className="h-6 w-6" />, inactive: <BookmarkOutline className="h-6 w-6 text-purple" /> },
+    like: { active: <FaHeart className="h-6 w-6 " />, inactive: <FaRegHeart className="h-6 w-6 text-purple" /> },
+    save: { active: <FaBookmark className="h-6 w-6" />, inactive: <FaRegBookmark className="h-6 w-6 text-purple" /> },
   };
 
   return (
@@ -33,4 +29,8 @@ const IconButton = ({ iconType, activeColor, inactiveColor }) => {
 export default IconButton;
 
 
+
+  
+
+  
 

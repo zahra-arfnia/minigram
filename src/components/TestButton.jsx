@@ -1,9 +1,10 @@
 import React from 'react'
 import Button from "./Button";
-import { PencilIcon } from '@heroicons/react/24/solid'
+// import { PencilIcon } from '@heroicons/react/24/solid'
 import EditProfile from './EditProfile'
 import IconButton from "./IconButton";
 
+import { FaRegEdit  } from 'react-icons/fa';
 
 export default function TestButton() {
   return (
@@ -40,7 +41,7 @@ export default function TestButton() {
  <Button color="blue" size="larger" onClick>
         Follow
       </Button>
- 
+  
 <div className="min-h-screen flex items-center justify-center space-x-4 bg-gray-50">
   <div className="flex items-center space-x-2">
     <IconButton
@@ -63,12 +64,13 @@ export default function TestButton() {
 <div className="flex justify-center items-center ">
       <EditProfile
         label="Edit Profile"
-        icon={PencilIcon} 
+        icon={FaRegEdit} 
         color="bg-strongGray" 
         textColor="text-white" 
         onClick
       />
-    </div>
+    </div> 
+
 
 
 
